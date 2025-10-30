@@ -1,0 +1,59 @@
+========================================
+📈 STOCK PRICE PREDICTION USING LSTM
+========================================
+
+🧠 PROJECT OVERVIEW:
+This project predicts stock prices using LSTM deep learning model 
+and integrates live social media sentiment using Tweepy + TextBlob. 
+The interface is built using Streamlit dashboard with live Yahoo Finance data.
+
+----------------------------------------
+⚙️ 1️⃣ SETUP INSTRUCTIONS
+----------------------------------------
+
+Step 1: Clone the repository
+> git clone https://github.com/<your-username>/stock-prediction-lstm-sentiment-streamlit.git
+> cd stock-prediction-lstm-sentiment-streamlit
+
+Step 2: Create a virtual environment
+> python -m venv venv
+> venv\Scripts\activate    (For Windows)
+> source venv/bin/activate (For Mac/Linux)
+
+Step 3: Install all required packages
+> pip install -r requirements.txt
+
+----------------------------------------
+🔑 2️⃣ SETUP TWITTER API KEYS
+----------------------------------------
+Create a `.env` file in the root folder and add:
+> TWITTER_API_KEY=your_api_key
+> TWITTER_API_SECRET=your_api_secret
+> TWITTER_ACCESS_TOKEN=your_access_token
+> TWITTER_ACCESS_SECRET=your_access_secret
+
+(If you don’t have keys, the app will still run with sentiment = 0)
+
+----------------------------------------
+▶️ 3️⃣ RUN THE APPLICATION
+----------------------------------------
+> streamlit run app.py
+
+Then open the local link shown in terminal:
+> http://localhost:8501/
+
+----------------------------------------
+📊 4️⃣ FEATURES
+----------------------------------------
+✅ Live Stock Data (from Yahoo Finance)
+✅ 2-Year Historical Trend Chart
+✅ LSTM-based Stock Prediction
+✅ Social Media Sentiment Integration
+✅ News Headlines via Google News RSS
+✅ Next-Day Predicted Price Graph
+
+----------------------------------------
+👨‍💻 5️⃣ AUTHOR
+----------------------------------------
+Developed by Aryan Kumar Yadvendu 
+Year: 2025  
